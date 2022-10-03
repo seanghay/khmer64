@@ -19,7 +19,6 @@ function config() {
 
 function run() {
   const currentConfig = config();
-  
   if (currentConfig.mode !== _config.mode) {
     let temp = $result.value;
     $result.value = $text.value;
